@@ -1,10 +1,6 @@
 import java.util.Scanner;
 
-/**
- * UC1 - Application Entry & Welcome Message
- * This class demonstrates User Case 1:
- * When the application starts, display a welcome screen with main menu options
- */
+
 public class MainUC1 {
     static Scanner scanner;
 

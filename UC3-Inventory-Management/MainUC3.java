@@ -1,13 +1,5 @@
 import java.util.Scanner;
 
-/**
- * UC3 - Centralized Room Inventory Management
- * Demonstrates inventory management with operations:
- * - Add rooms
- * - Remove rooms
- * - Update room availability
- * - Display all rooms
- */
 public class MainUC3 {
     private static InventoryManagementUC3 inventory;
     private static Scanner scanner;
@@ -25,9 +17,7 @@ public class MainUC3 {
         scanner.close();
     }
 
-    /**
-     * Interactive menu for inventory management
-     */
+    
     private static void managementMenu() {
         boolean running = true;
 

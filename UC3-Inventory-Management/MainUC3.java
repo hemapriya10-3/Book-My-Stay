@@ -1,25 +1,18 @@
 import java.util.Scanner;
-
 public class MainUC3 {
     private static InventoryManagementUC3 inventory;
     private static Scanner scanner;
-
     public static void main(String[] args) {
         inventory = new InventoryManagementUC3();
         scanner = new Scanner(System.in);
         System.out.println("\n========================================");
         System.out.println("UC3 - INVENTORY MANAGEMENT SYSTEM");
         System.out.println("========================================\n");
-
         managementMenu();
-
         scanner.close();
     }
-
-    
     private static void managementMenu() {
         boolean running = true;
-
         while (running) {
             System.out.println("\n========================================");
             System.out.println("    INVENTORY MANAGEMENT MENU");
@@ -32,7 +25,6 @@ public class MainUC3 {
             System.out.println("6. Exit");
             System.out.println("========================================");
             System.out.print("Enter your choice (1-6): ");
-
             try {
                 int choice = scanner.nextInt();
                 scanner.nextLine();
@@ -66,7 +58,6 @@ public class MainUC3 {
             }
         }
     }
-
     private static void addNewRoom() {
         System.out.println("\n======= ADD NEW ROOM =======");
         try {
@@ -90,7 +81,6 @@ public class MainUC3 {
             scanner.nextLine();
         }
     }
-
     private static void removeRoomByID() {
         System.out.println("\n======= REMOVE ROOM =======");
         try {

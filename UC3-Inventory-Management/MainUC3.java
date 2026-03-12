@@ -7,7 +7,6 @@ public class MainUC3 {
     public static void main(String[] args) {
         inventory = new InventoryManagementUC3();
         scanner = new Scanner(System.in);
-
         System.out.println("\n========================================");
         System.out.println("UC3 - INVENTORY MANAGEMENT SYSTEM");
         System.out.println("========================================\n");
@@ -68,9 +67,6 @@ public class MainUC3 {
         }
     }
 
-    /**
-     * UC3 - Add new room to inventory
-     */
     private static void addNewRoom() {
         System.out.println("\n======= ADD NEW ROOM =======");
         try {
@@ -95,9 +91,6 @@ public class MainUC3 {
         }
     }
 
-    /**
-     * UC3 - Remove room by ID from inventory
-     */
     private static void removeRoomByID() {
         System.out.println("\n======= REMOVE ROOM =======");
         try {
@@ -111,10 +104,6 @@ public class MainUC3 {
             scanner.nextLine();
         }
     }
-
-    /**
-     * UC3 - Update room availability
-     */
     private static void updateAvailability() {
         System.out.println("\n======= UPDATE AVAILABILITY =======");
         try {
